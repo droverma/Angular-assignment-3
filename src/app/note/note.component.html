@@ -1,0 +1,7 @@
+
+<!-- Load and display the collection of notes from server as Material Cards with card title set to note title and card content set to note text  -->
+<mat-card class="noteCard" (click)="editNoteView()">
+  <mat-card-title>{{note.title}}</mat-card-title>
+  <mat-card-content>{{note.text}}</mat-card-content>
+  <mat-card-content>{{note.id}}</mat-card-content>
+</mat-card>
